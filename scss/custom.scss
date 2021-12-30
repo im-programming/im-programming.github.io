@@ -1,0 +1,50 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+//Paleta de Colores
+$principal: #3d5a80;
+$segundo: #98c1d9;
+$tercero: #e0fbfc;
+$cuarto: #ee6c4d;
+$quinto: #293241;
+
+//Bootstrap
+$primary:       $principal;
+$secondary:     $segundo;
+$success:       $tercero;
+$info:          $cuarto;
+$warning:       $quinto;
+
+$enable-shadows: true;
+$enable-gradients: true;
+
+$btn-padding-y:               0.5rem;
+$btn-padding-x:               0.5rem;
+
+/*
+$offcanvas-padding-y:               $modal-inner-padding;
+$offcanvas-padding-x:               $modal-inner-padding;
+$offcanvas-horizontal-width:        400px;
+$offcanvas-vertical-height:         30vh;
+$offcanvas-transition-duration:     .3s;
+$offcanvas-border-color:            $modal-content-border-color;
+$offcanvas-border-width:            $modal-content-border-width;
+$offcanvas-title-line-height:       $modal-title-line-height;
+$offcanvas-bg-color:                $modal-content-bg;
+$offcanvas-color:                   $modal-content-color;
+$offcanvas-box-shadow:              $modal-content-box-shadow-xs;
+*/
+
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//Customized Settings
+.btn-primary {
+    border-bottom: 3px solid #293241;
+}
+
+p {
+    text-align: justify; text-justify: inter-word;
+}
