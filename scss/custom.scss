@@ -77,6 +77,12 @@ $accordion-button-active-color:     #FFFFFF;
 .navbar-toggler-icon {
     color: $secondary;
 }
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
 //Tags
 p {
     text-align: justify; text-justify: inter-word;
@@ -104,6 +110,7 @@ img {
 
 a {
     white-space: nowrap;
+    text-decoration: none;
 }
 
 
