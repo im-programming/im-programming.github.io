@@ -108,6 +108,10 @@ img {
     color: $tercero;
 }
 
+img:hover {
+    transform: scale(1.5);
+}
+
 a {
     white-space: nowrap;
     text-decoration: none;
