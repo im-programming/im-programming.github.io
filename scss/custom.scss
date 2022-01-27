@@ -108,15 +108,10 @@ img {
     color: $tercero;
 }
 
-img:hover {
-    transform: scale(1.5);
-}
-
 a {
     white-space: nowrap;
     text-decoration: none;
 }
-
 
 figcaption {
     justify-self: end;
@@ -134,13 +129,13 @@ figcaption {
 }
 
 #educationHeader {
-    background-color: $secondary;
+    background-color: $primary;
     opacity: .5;
     height: 3rem;
 }
 
 #experienceHeader {
-    background-color: $success;
+    background-color: $primary;
     opacity: .5;
     height: 3rem;
 }
@@ -150,28 +145,28 @@ figcaption {
 }
 
 #educationCard {
-    background-color: rgba($color: $secondary, $alpha: 0.05);
+    background-color: rgba($color: $primary, $alpha: 0.05);
 }
 
 #experienceCard {
-    background-color: rgba($color: $success, $alpha: 0.05);
+    background-color: rgba($color: $primary, $alpha: 0.05);
 }
 
 #modalHeaderEducation {
-    background-color: $secondary;
+    background-color: $primary;
     opacity: .5;
     color: #FFFFFF;
 }
 
 #modalHeaderExperience {
-    background-color: $success;
+    background-color: $primary;
     opacity: .5;
     color: $primary;
 }
 
 #summaryCard {
     background-color: rgba($color: $info, $alpha: 0.5);
-    border: 3px solid rgba($color: $primary, $alpha: 0.2);
+    //border: 3px solid rgba($color: $primary, $alpha: 0.2);
 }
 
 #skillsCard {
@@ -179,7 +174,7 @@ figcaption {
 }
 
 #toolsCard {
-    background-color: rgba($color: $secondary, $alpha: 0.05);
+    background-color: rgba($color: $primary, $alpha: 0.05);
 }
 
 #skillsHeader {
@@ -189,7 +184,7 @@ figcaption {
 }
 
 #toolsHeader {
-    background-color: $secondary;
+    background-color: $primary;
     opacity: .5;
     height: 3rem;
 }
