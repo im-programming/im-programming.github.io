@@ -38,9 +38,9 @@ $modal-backdrop-bg:                 $warning;
 
 //Accordion 
 
-$accordion-bg:                      rgba($color: $secondary, $alpha: 0.1);
-$accordion-button-bg:               rgba($color: $secondary, $alpha: 0.2);
-$accordion-button-active-bg:        rgba($color: $secondary, $alpha: 0.5);
+$accordion-bg:                      rgba($color: $primary, $alpha: 0.1);
+$accordion-button-bg:               rgba($color: $primary, $alpha: 0.2);
+$accordion-button-active-bg:        rgba($color: $primary, $alpha: 0.5);
 $accordion-button-active-color:     #FFFFFF;
 
 // Include any default variable overrides here (though functions won't be available)
@@ -102,6 +102,7 @@ h2 {
 }
 body {
     font-family: 'Rajdhani', sans-serif;
+    background-color: $primary;
 }
 
 img {
