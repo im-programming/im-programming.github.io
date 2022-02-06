@@ -83,6 +83,7 @@ $accordion-button-active-color:     #FFFFFF;
     text-align: center;
     text-decoration: none;
 }
+
 //Tags
 p {
     text-align: justify; text-justify: inter-word;
@@ -126,18 +127,21 @@ figcaption {
     background-color: $primary;
     opacity: .5;
     height: 3rem;
+    color: white;
 }
 
 #educationHeader {
     background-color: $primary;
     opacity: .5;
     height: 3rem;
+    color: white;
 }
 
 #experienceHeader {
     background-color: $primary;
     opacity: .5;
     height: 3rem;
+    color: white;
 }
 
 #contactCard {
@@ -161,7 +165,7 @@ figcaption {
 #modalHeaderExperience {
     background-color: $primary;
     opacity: .5;
-    color: $primary;
+    color: #FFFFFF;
 }
 
 #summaryCard {
@@ -181,12 +185,14 @@ figcaption {
     background-color: $primary;
     opacity: .5;
     height: 3rem;
+    color: #FFFFFF;
 }
 
 #toolsHeader {
     background-color: $primary;
     opacity: .5;
     height: 3rem;
+    color: #FFFFFF;
 }
 
 #portfolio {
